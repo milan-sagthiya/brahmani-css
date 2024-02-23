@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
+}
+
+.brandbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 18px 0px 24px 60px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+.contact2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar {
+
+    background-color: #004970;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.line {
+    height: 4px;
+    width: 28px;
+    background-color: #43953B;
+    margin-left: 23px;
+    margin-top: -20px;
+}
+
+.cpage {
+    position: absolute;
+    padding: 1.5em 4.5em 1.5em 4.5em;
+
+    bottom: 0%;
+    margin-left: 15%;
+
+    background-color: white;
+
+}
+
+.about-section-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+
+}
+
+.about-us-text {
+    padding: 13% 0% 13% 10%;
+    max-width: 662px;
+}
+
+.s-box {
+    display: flex;
+    margin: 24px;
+    padding: auto;
+}
+
+.g-box {
+
+    width: 92px;
+    height: 89px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background: #43953B;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.text-box {
+
+    width: 223px;
+    height: 89px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.padbot {
+
+    display: flex;
+    margin: 24px;
+    padding: auto;
+
+}
+
+.Consultation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    justify-content: space-evenly;
+
+}
+
+.form {
+
+    width: 426px;
+    height: 528px;
+
+
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+}
+
+.nameform {
+    width: 362px;
+    height: 56px;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin: 8px 32px 8px 32px;
+}
+
+.messageform {
+    width: 362px;
+    height: 182px;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin: 8px 32px 8px 32px;
+}
+
+.buttonform {
+    width: 224px;
+    height: 48px;
+
+    color: white;
+    background: #004970;
+    border: 1px solid #004970;
+    border-radius: 2px;
+    margin: 20px 101px 28px 101px;
+}
+
+.ms {
+    margin: 75px 20px 75px 20px;
+}
+
+.Testimonials {
+    align-content: center;
+    text-align: center;
+}
+
+.card {
+    width: 315px;
+    height: 356px;
+    left: 208px;
+    top: 3147px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardp {
+    height: 215px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 32px 26px 0px 26px;
+    border-left: 4px solid #004970;
+    padding-left: 16px;
+
+
+    color: #6D6D6D;
+}
+
+.footer {
+    background-color: #004970;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footflex {
+    display: flex;
+    gap: 16px;
+
+    align-items: center;
+}
+
+.p16 {
+    padding: 16px 50px 16px 0px;
+}
+
+.landcard {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+}
+
+.landtext {
+    margin-left: 5%;
+}
+
+.footer2 {
+    background-color: #004970;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .imgstack {
+        width: 300px;
+        margin: auto;
+        padding: 40px;
+    }
+
+    .aboutimg {
+        width: 350px;
+        padding-left: 20%;
+    }
+
+    .card {
+        margin: 20px;
+    }
+
+    .Testimonials p {
+
+        padding: 10%;
+    }
+
+    .brandbar {
+        padding: 0%;
+    }
+
+    .brandlogo {
+        padding: 7%;
+    }
+
+    .contact {
+        justify-content: start;
+        margin-left: 7%;
+        margin-bottom: 7%;
+    }
+
+    .contact2 {
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+    }
+
+    .cpage {
+        padding: 10px 35px 10px 35px;
+        margin-top: -30px;
+        margin-left: 15%;
+        font-size: 10px;
+    }
+
+    .navflex {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 300px;
+        flex-direction: column;
+
+    }
+
+    .nav {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .nav-item {
+        padding: 13px;
+    }
+
+    .globe {
+        visibility: hidden;
+    }
+
+    .fourbox {
+        margin: 0px 31px 0px 31px;
+    }
+
+    .padbot {
+        margin: 24px 24px 0px 24px;
+    }
+
+    .consp {
+        padding: 0% 10% 0% 10%;
+        text-align: center;
+    }
+
+    .about-us-text p {
+        padding-right: 10%;
+    }
+
+    .footmargin {
+        margin-bottom: 20%;
+    }
+}

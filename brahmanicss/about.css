@@ -1,0 +1,24 @@
+.bluebox2 {
+    text-align: center;
+    padding: auto;
+
+    left: 60%;
+    width: 20%;
+    height: 100%;
+    background-color: #0049707A;
+    color: white;
+    padding: 0% 3% 0% 3%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ceosq {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+}
